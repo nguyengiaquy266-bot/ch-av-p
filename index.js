@@ -37,7 +37,7 @@ client.on('messageCreate', (message) => {
     if (message.author.bot) return;
 
     // Lệnh !thằng đú
-    if (message.content === '!con bot') {
+    if (message.content === '!memay') {
         message.reply('tao nghe!');
     }
 
